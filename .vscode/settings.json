@@ -1,0 +1,12 @@
+{
+    "[yml]": {
+        "editor.autoIndent": "none",
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+    "[yaml]": {
+        "editor.autoIndent": "none",
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    }
+}
