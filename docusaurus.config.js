@@ -4,7 +4,7 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-/** @type {import('@docusaurus/types').Config} */
+// /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Blogger Gabut",
   tagline: "Cuman Blog kecil yang membagikan tutorial seputar IT",
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "id",
-    locales: ["en", "id"],
+    locales: ["id"],
   },
 
   presets: [
@@ -34,17 +34,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -60,15 +52,9 @@ const config = {
         title: "Blogger Gabut",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "https://github.com/binarstrike.png",
         },
         items: [
-          // {
-          //   type: "doc",
-          //   docId: "intro",
-          //   position: "left",
-          //   label: "Tutorial",
-          // },
           { to: "/blog", label: "Blog", position: "right" },
           {
             href: "https://github.com/binarstrike",
@@ -80,25 +66,21 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          // {
-          //   title: "Docs",
-          //   items: [
-          //     {
-          //       label: "Tutorial",
-          //       to: "/docs/intro",
-          //     },
-          //   ],
-          // },
+          {
+            title: "Let's connect",
+            items: [
+              {
+                label: "Email",
+                to: "mailto:binarnugroho775@gmail.com",
+              },
+            ],
+          },
           {
             title: "Community",
             items: [
               {
-                label: "Discord",
-                href: "https://discord.com/users/746175445430435931",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/binar_nugroho",
+                label: "Discord Server",
+                href: "https://discord.gg/z7d9HPysCs",
               },
             ],
           },
