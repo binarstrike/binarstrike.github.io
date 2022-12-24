@@ -1,7 +1,6 @@
 # Logs
 .backups
 .docusaurus
-docs
 logs
 *.log
 npm-debug.log*
