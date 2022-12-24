@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://web.binarstrike.my.id/en/blog</id>
+    <title>Blogger Gabut Blog</title>
+    <updated>2022-12-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://web.binarstrike.my.id/en/blog"/>
+    <subtitle>Blogger Gabut Blog</subtitle>
+    <icon>https://web.binarstrike.my.id/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[My First Blog]]></title>
+        <id>my-first-blog</id>
+        <link href="https://web.binarstrike.my.id/en/blog/my-first-blog"/>
+        <updated>2022-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Halo Guys perkenalkan nama ku Binar Nugroho]]></summary>
+        <content type="html"><![CDATA[<p>Halo Guys perkenalkan nama ku <code>Binar Nugroho</code></p>]]></content>
+        <author>
+            <name>Binar Nugroho</name>
+            <uri>https://web.binarstrike.my.id</uri>
+        </author>
+        <category label="first" term="first"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
