@@ -12,8 +12,8 @@
         <id>my-first-blog</id>
         <link href="https://web.binarstrike.my.id/blog/my-first-blog"/>
         <updated>2022-12-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Halo Guys perkenalkan nama ku Binar Nugroho]]></summary>
-        <content type="html"><![CDATA[<p>Halo Guys perkenalkan nama ku <code>Binar Nugroho</code></p>]]></content>
+        <summary type="html"><![CDATA[Halo Guys perkenalkan namaku Binar Nugroho di blog ini Aku akan membagikan tutorial tentang hal-hal pada dunia IT.]]></summary>
+        <content type="html"><![CDATA[<p>Halo Guys perkenalkan namaku <code>Binar Nugroho</code> di blog ini Aku akan membagikan tutorial tentang hal-hal pada dunia IT.</p>]]></content>
         <author>
             <name>Binar Nugroho</name>
             <uri>https://web.binarstrike.my.id</uri>
