@@ -1,4 +1,5 @@
 # Logs
+.backups
 .docusaurus
 docs
 logs
