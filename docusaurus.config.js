@@ -103,7 +103,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Blogger Gabut, Inc. Built with <a href="https://docusaurus.io" style="text-decoration:none;color:white;" onMouseOver="this.style.color='#0F0'" onMouseOut="this.style.color='#FFF'">Docusaurus</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Blogger Gabut, Inc. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Docusaurus</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
