@@ -9,11 +9,12 @@
     <icon>https://web.binarstrike.my.id/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[My First Blog]]></title>
-        <id>my-first-blog</id>
-        <link href="https://web.binarstrike.my.id/blog/my-first-blog"/>
+        <id>/first</id>
+        <link href="https://web.binarstrike.my.id/blog/first"/>
         <updated>2022-12-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Halo Guys perkenalkan namaku Binar Nugroho di blog ini Aku akan membagikan tutorial tentang hal-hal pada dunia IT.]]></summary>
-        <content type="html"><![CDATA[<p>Halo Guys perkenalkan namaku <code>Binar Nugroho</code> di blog ini Aku akan membagikan tutorial tentang hal-hal pada dunia IT.</p>]]></content>
+        <summary type="html"><![CDATA[Halo Guys perkenalkan namaku Binar Nugroho di blog ini Aku akan membagikan tutorial seputar tentang IT terutama pada]]></summary>
+        <content type="html"><![CDATA[<p>Halo Guys perkenalkan namaku <code>Binar Nugroho</code> di blog ini Aku akan membagikan tutorial seputar tentang IT terutama pada
+materi Network System Administration(Sistem Administrasi Jaringan).</p>]]></content>
         <author>
             <name>Binar Nugroho</name>
             <uri>https://web.binarstrike.my.id</uri>
