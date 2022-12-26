@@ -13,15 +13,8 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "binarstrike", // Usually your GitHub org/user name.
   projectName: "binarstrike.github.io", // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "id",
     locales: ["id"],
@@ -52,13 +45,21 @@ const config = {
         title: "Blogger Gabut",
         logo: {
           alt: "My Site Logo",
-          src: "https://github.com/binarstrike.png",
+          src: "/img/ryo-padorus.png",
         },
         items: [
-          { to: "/blog", label: "Blog", position: "right" },
+          { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "doc",
+            docId: "Introduction",
+            position: "left",
+            label: "Tutorial",
+          },
           {
             href: "https://github.com/binarstrike",
-            label: "GitHub",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
+            // label: "GitHub",
             position: "right",
           },
         ],
@@ -72,6 +73,10 @@ const config = {
               {
                 label: "Email",
                 to: "mailto:binarnugroho775@gmail.com",
+              },
+              {
+                label: "Telegram",
+                to: "https://t.me/binarstrike",
               },
             ],
           },
@@ -88,17 +93,17 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
                 href: "https://github.com/binarstrike",
+              },
+              {
+                label: "Blog",
+                to: "/blog",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Blogger Gabut, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Blogger Gabut, Inc. Built with <a href="https://docusaurus.io" style="text-decoration:none;color:white;" onMouseOver="this.style.color='#0F0'" onMouseOut="this.style.color='#FFF'">Docusaurus</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
