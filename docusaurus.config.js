@@ -4,7 +4,7 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-// /** @type {import('@docusaurus/types').Config} */
+/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Blogger Gabut",
   tagline: "Cuman Blog kecil yang membagikan tutorial seputar IT",
@@ -19,7 +19,7 @@ const config = {
     defaultLocale: "id",
     locales: ["id"],
   },
-
+  themes: [require.resolve("@easyops-cn/docusaurus-search-local")],
   presets: [
     [
       "classic",
