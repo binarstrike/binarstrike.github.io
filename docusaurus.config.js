@@ -45,13 +45,13 @@ const config = {
         title: "Blogger Gabut",
         logo: {
           alt: "My Site Logo",
-          src: "/img/ryo-padorus.png",
+          src: "/img/ryo-padoru.png",
         },
         items: [
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "doc",
-            docId: "Introduction",
+            docId: "Perkenalan",
             position: "left",
             label: "Tutorial",
           },
