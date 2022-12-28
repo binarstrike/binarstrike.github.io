@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbinarstrike_github_io=self.webpackChunkbinarstrike_github_io||[]).push([[713],{3457:s=>{s.exports=JSON.parse('[{"label":"first","permalink":"/blog/tags/first","count":1},{"label":"docusaurus","permalink":"/blog/tags/docusaurus","count":1}]')}}]);
